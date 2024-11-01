@@ -1,0 +1,99 @@
+
+
+
+.azeret-mono-exrtabold {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: xx-large;
+  text-align: center;
+}
+
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.btn{
+    background-color: white;
+    font-weight: bold;
+    color: #0D1321;
+    padding: 17px 24px;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+/* banner */
+
+.btn-contact{
+background-color: #0D1321;
+width: 244px;
+height: 65px;
+padding: 24px 21px;
+border-radius: 8px;
+color: white;
+font-size:large;
+font-weight: bold;
+margin-top: 10px;
+margin-left: 800px;
+}
+
+.banner-description{
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    text-align: center;
+}
+
+.img{
+    margin-left: 800px;
+    margin-bottom: 20px;
+}
+
+.banner{
+    background-image: url('../assets/Hero-bg.png');
+    height: 652px;
+    
+}
+
+
+/* why web  */
+.secondary-bg{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.why-web{
+    padding-left: 97px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.code{
+    margin-top: 100px;
+    margin-left: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.will{
+    font-family: "Azeret Mono", monospace;
+    font-size: 24px;
+font-weight: bold;
+color: dimgray;
+}
+
+.can{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.layer{
+    padding-right: 150px;
+}
