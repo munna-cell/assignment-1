@@ -25,6 +25,7 @@ nav{
     padding: 17px 24px;
     border-radius: 8px;
     font-size: larger;
+    margin-bottom: 20px;
 }
 
 /* banner */
@@ -96,4 +97,11 @@ color: dimgray;
 
 .layer{
     padding-right: 150px;
+}
+
+.youtube{
+   border: 20px solid white;
+   border-radius: 30px;  
+   background-color: azure;
+   margin-top: 40px;
 }
