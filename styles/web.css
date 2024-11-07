@@ -1,301 +1,380 @@
-
-
-
-.azeret-mono-exrtabold {
+/* nav styles */
+.azeret-mono-extrabold{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 800px;
+  font-weight: 800;
   font-style: normal;
-  font-size: xx-large;
-  text-align: center;
+  font-size: 28px;
+  width: 128px;
+  height: 33px;
+  
 }
 
-
-/* nav styles */
 nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .btn{
-    background-color: white;
-    font-weight: bold;
-    color: #0D1321;
-    padding: 17px 24px;
-    border-radius: 8px;
-    font-size: larger;
-    margin-bottom: 20px;
+  font-family: "Azeret Mono";
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  opacity: 80%;
+  background-color:white;
 }
 
-/* banner */
-
-.btn-contact{
-background-color: #0D1321;
-width: 244px;
-height: 65px;
-padding: 24px 21px;
-border-radius: 8px;
-color: white;
-font-size:large;
-font-weight: bold;
-margin-top: 10px;
-margin-left: 800px;
+nav ul{
+  margin-top: 38px;
+  
 }
-
+nav h2{
+  margin-top: 50px;
+}
 .banner-description{
-    font-family: "Azeret Mono", monospace;
-    font-size: 16px;
-    text-align: center;
-    margin-left: 
+  font-family: "Azeret Mono", monospace;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
 }
 
-.img{
-    margin-left: 800px;
-    margin-bottom: 20px;
+.azeret{
+  text-align: center;
+  align-content: space-between;
+  line-height: 38px;
+  font-size: 48px;
+  font-weight: 800;
 }
 
 .banner{
-    background-image: url('../assets/Hero-bg.png');
-    height: 652px;
-    
+  justify-items: center;
+  background-image:url('../assets/Hero-bg.png');  
+  margin-top: 50px;
+  
 }
 
-
-/* why web  */
-.secondary-bg{
-    background-color: whitesmoke;
-    border-radius: 8px;
-    max-width: 1140px;
-    margin: 0 auto;
-    margin-top: 90px;
+.btn-contact{
+  background-color: #0D1321;
+  color: #FFFFFF;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 21px 24px;
+  border-radius: 8px;
+  margin-top: 31px;
+  margin-bottom: 35px;
+  margin-left: 230px;
 }
 
-.why-web{
-    padding-left: 97px;
-    padding-top: 80px;
-    text-align: center;
+.img{
+  margin-top: 36px;
 }
 
-.code{
-    margin-top: 100px;
-    margin-left: 97px;
-    display: flex;
-    justify-content: space-between;
+/* why web development */
+.why-web-development{
+  width: 1140px;
+  height: 1300px;
+  background-color: rgba(128, 128, 128, 0.055);
+  margin-left: 380px;
+  margin-top: 84px;
+  
+}
+.why{
+  text-align: center;
+  align-content: space-between;
+  line-height: 38px;
+  font-size: 32px;
+  font-weight: 800;
+  padding-top: 80px ;
 }
 
-.will{
+.web{
+  font-family: "Azeret Mono", monospace;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+.do{
+  font-family: "Azeret Mono", monospace;
+  font-weight: bold;
+  font-size: 24px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 130px;
+  color: #0d1321a1;
+}
+
+.and{
+  font-family: "Azeret Mono", monospace;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 160px;
+}
+
+.learn{
+  font-size: 20px;
+  line-height: 1.5px;
+  padding: 22px 30px;
+  color: #0D1321;
+  background-color: ;
+  border: 1px solid #0D1321;
+  display: inline-block;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 130px;
+  margin-top: 22px;
+}
+
+.layer-1{
+  display: flex;
+  margin-top: 80px;
+}
+
+.png{
+  margin-right: 100px;
+  
+}
+
+.pn{
+  margin-left:140px}
+
+  .is{
     font-family: "Azeret Mono", monospace;
-    font-size: 24px;
-font-weight: bold;
-color: dimgray;
-}
-
-.can{
-    font-size: 20px;
     font-weight: normal;
-}
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 292px;
+    margin-right: 296px;
+    text-align: center;
+  }
 
-.layer{
-    padding-right: 150px;
-}
+  .inspiration{
+  
+    text-align: center;
+    margin-left: 380px;
+    margin-right: 330px;
+  }
 
-.youtube{
-   border: 20px solid white;
-   border-radius: 30px;  
-   background-color: azure;
-   margin-top: 40px;
-}
+  .inframe{
+    margin-left: 380px;
+    margin-right: 320px ;
+    margin-top: 48px;  
+    border: 1px solid rgba(13, 19, 33, 20%);
+    padding: 32px;
+    border-radius: 16px;
+    display: block;
+    unicode-bidi: isolate;
+  }
 
-/* skill section  */
+  .youtube{
+    border-radius: 16px;
+  }
 
-.skill-container{
-    margin-left: 300px;
-    margin-top: 50px;
-    margin-right: 500px;
-    display: flex;
+  .current-target{
+    margin-top: 212px;
+  }
+
+  .my{
+    text-align: center;
+    align-content: space-between;
+    line-height: 38px;
+    font-size: 32px;
+   
+  }
+
+  .to{
+    font-family: "Azeret Mono", monospace;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+      
+  }
+
+.boxes{
+  display: flex;
+  gap: 24px;
+  margin-left: 400px;
+  margin-right: 360px;
+  margin-top: 48px;
 }
 
 .html{
-   background-color:rgba(255, 182, 193, 0.397);
-   padding-top: 30px;
-   padding-left: 30px;
-   padding-right: 20px;
-   padding-bottom: 30px;
-   border-radius: 10px;
-   font-size: larger;
-   margin-right: 30px;
-   h
+  padding: 40px;
+  border-width: 364px;
+  border-radius: 16px;
+  background-color:  #ff4b1e13;
+  
 }
 
-.ancor{
-    color: #0D1321;
-    font-size: larger;
+.Html{
+  font-family: "Azeret Mono", monospace;
+  font-weight: 800;  
+  font-size: 24px;
 }
 
-.js{
-    background-color: rgba(255, 255, 0, 0.158);
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    font-size: larger;
-    margin-right: 30px; 
+.skills-description{
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0D1321;
 }
 
 .css{
-    background-color: rgba(176, 196, 222, 0.726);
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    font-size: larger;
-    margin-right: 30px; 
-}
-.current-target{
-    background-color: white;
-    border-radius: 8px;
-    max-width: 1140px;
-    
-    margin: 0 auto;
-    margin-top: 90px;
+  padding: 40px;
+  border-width: 364px;
+  border-radius: 16px;
+  background-color: #004de813;
 }
 
-.current{
-    font-family: "Azeret Mono", monospace;
-    font-size: 16px;
-    text-align: center;
-    margin-left: 100px;
+.js{
+  padding: 40px;
+  border-width: 364px;
+  border-radius: 16px;
+  background-color: #ffdd0010;
 }
 
-.my{
-    font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 800px;
-  font-style: normal;
-  font-size: xx-large;
-  text-align: center;
-  margin-left: 80px;
+.learn-more{
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0D1321;
+}
+
+.next{
+  margin-top: 111px;
+}
+
+.botom{
+  margin-bottom: 40px;
+}
+
+.Reactjs{
+  display: flex;
+  border: 1px solid whitesmoke;
+  width: 1060px;
+  height: 119px;
+  margin-left: 400px;
+  background-color: #ffffff65;
+  border-radius: 16px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  padding-right: 40px;
+  margin-bottom: 24px; 
+  
 }
 
 .react{
-    font-family: "Azeret Mono", monospace;
-    font-size: 24px;
-    font-weight: bold;
-    color: #0D1321;
-    margin-right: 650px;
+  padding-right: 24px;
+  padding-top: 40px;
 }
 
-.the{
-    font-size: large;
-    font-family: "Azeret Mono", monospace;
-    margin-left: 20px;
-}
-.library{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    border: 100px solid #FFFFFF;
-    background-color:rgba(245, 245, 245, 0.445);
-    border-radius: 100px;
-    height: 250px;
-    width: 900px;
-    padding-left: 70px;
-    padding-right: 50px;
-    margin-left: 300px;
-    margin-top: 5px;
+.an{
+  font-family: "Azeret Mono", monospace;
+  font-weight: normal;
+  font-size: 16px;
 }
 
-.react-js{
-    margin-top: 50px;
+.I{
+  font-family: "Azeret Mono", monospace;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
 }
 
-.more{
-    color: #0D1321;
-    font-size: larger;
-    margin-right: 650px ;
-}
-
-.lib{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    border: 100px solid #FFFFFF;
-    background-color:rgba(245, 245, 245, 0.445);
-    border-radius: 100px;
-    height: 250px;
-    width: 900px;
-    
-    margin-top: 0px;}
-
-.photo{
-    width: 900px;
-    height: 313px;
-    /* margin-left: 300px; */
-    ;
-    /* background-color:white; */
-    margin-left: 500px;
-    padding-top: 30px;
-    border-radius: 20px;
-}
-
-.feedback{
-    width: 548px;
-    height: 57px;
-    background-color:white;
-    border-radius: 8px;
-    border-color: #FFFFFF;
+.input{
+  width: 548px;
+  height: 27px;
+  border-radius: 8px;
+  padding: 20px;
+  
 }
 
 .submit{
-    width: 100px;
-    height: 40px;
-    background-color:white;
-    border-radius: 8px;
-    border-color: #FFFFFF;
-    margin-left: 20px; 
+  width: 130px;
+  height: 70px;
+  border-radius: 8px;
+  margin-left: 16px;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.ph{
-
-    background-image: url('../assets/handshake.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 40px;
-    
+.last-section{
+  width: 1020px;
+  height: 222px;
+  border-radius: 16px;
+  margin-top: 49px;
+  margin-left: 400px;
+  padding: 64px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),url('../assets/handshake.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  
 }
 
-.need{
-    margin-left:300px;
-    color: white;
-    
+
+
+.where{
+  font-family: "Azeret Mono", monospace;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
-.help{
-    color: white;
-    text-align: center;
-    font-size: larger;
+.feedback{
+  padding-left: 228px;
+  margin-top: 24px;
+  color: #FFFFFF;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
+ .facebook{
+  display: flex;
+  margin-top: 80px;
+  
+  background-color: #0d132110;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 360px;
+ }
 
-.footer{
-    background-color: aliceblue;
-    margin-top: 30px;
-}
+ .open{
+  font-family: "Azeret Mono", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  
+ }
 
-.blank{
-    margin-right: 300px;
-    margin-top: 40px;
-}
-
-.open{
-    margin-left: 300px;
-    font-size: xx-large;
-    font-weight: 800;
-}
+ .github{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 24px;
+ }
+ 
